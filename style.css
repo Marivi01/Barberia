@@ -56,3 +56,10 @@ footer{
     background: url(imagenes/bg.jpg);
     padding: 40px;
 }
+
+.copyright{
+    color: #ffffff;
+    font-size: 20px;
+    margin:20px;
+    background: none;
+}
