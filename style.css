@@ -263,6 +263,25 @@ font-weight: bold;
 }
 
 .video{
-    width: 560px;
+    width: auto;
     margin: 1em auto;
+}
+
+
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .encabezado, .principal, .mapa-contenido,.contenido-diferenciales,.video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+    
+    
 }
